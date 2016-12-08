@@ -751,7 +751,7 @@ a.btn.viewInfo {
     background: #fff;
 }
 #vendor-section {
-  padding: 50px 0;
+  padding: 0 0px 0 0;
 }
 #owl-vendor {
   margin-bottom: 50px;
@@ -771,7 +771,7 @@ a.btn.viewInfo {
 footer {
   background: #333;
   border-top: 5px solid #e74c3c;
-  min-height: 300px;
+  min-height: 200px;
 }
 
 .footer-logo {
