@@ -750,6 +750,23 @@ a.btn.viewInfo {
 .infoW {
     background: #fff;
 }
+#vendor-section {
+  padding: 50px 0;
+}
+#owl-vendor {
+  margin-bottom: 50px;
+  text-align: center;
+}
+#owl-vendor li {
+  background: #e7e7e7;
+  display: inline-block;
+  font-family: 'Lobster';
+  list-style: none;
+  height: 100px;
+  padding: 30px;
+  text-align: center;
+  width: 240px;
+}
 
 footer {
   background: #333;

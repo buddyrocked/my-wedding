@@ -152,6 +152,33 @@ $(document).ready(function(){
         }
     });
 
+     $("#owl-vendor").owlCarousel({
+        autoplay: true, //Set AutoPlay to 3 seconds
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        items : 1,
+        nav: true,
+        navText: ["prev","next"],
+        dots: false,
+        loop: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:false
+            }
+        }
+    });
+
     $('#nav-1').onePageNav({
         currentClass: 'current',
         changeHash: true,
