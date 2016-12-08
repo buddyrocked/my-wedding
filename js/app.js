@@ -247,7 +247,7 @@ $(document).ready(function(){
         //var props = loadJSONParams($('#mapView').attr('data-url'), 1);
         var props = [{
             title : 'Tanah Bapak H.Muhidin',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,550,000',
             address : '39 Remsen St, Brooklyn, NY 11201, USA',
@@ -261,7 +261,7 @@ $(document).ready(function(){
             markerIcon : 'marker-red-mini.png'
         }, {
             title : 'Tanah Bapak H.Mahmud',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Rent',
             price : '$1,750,000',
             address : '169 Warren St, Brooklyn, NY 11201, USA',
@@ -275,7 +275,7 @@ $(document).ready(function(){
             markerIcon : 'marker-yellow-mini.png'
         }, {
             title : 'Tanah Bapak H.Muhidin',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,340,000',
             address : '38-62 Water St, Brooklyn, NY 11201, USA',
@@ -289,7 +289,7 @@ $(document).ready(function(){
             markerIcon : 'marker-green-mini.png'
         }, {
             title : 'Tanah Ibu Hj.Nurlele',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,930,000',
             address : 'Wunsch Bldg, Brooklyn, NY 11201, USA',
@@ -303,7 +303,7 @@ $(document).ready(function(){
             markerIcon : 'marker-green-mini.png'
         }, {
             title : 'Tanah Babeh Sabeni',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Rent',
             price : '$2,350,000',
             address : '95 Butler St, Brooklyn, NY 11231, USA',
@@ -317,7 +317,7 @@ $(document).ready(function(){
             markerIcon : 'marker-green-mini.png'
         }, {
             title : 'Tanah Engkong Abidin',
-            image : '../style/images/1-1-thmb.png',
+            image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,550,000',
             address : '39 Remsen St, Brooklyn, NY 11201, USA',
