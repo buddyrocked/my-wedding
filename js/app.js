@@ -7,6 +7,8 @@ $(document).ready(function(){
 		$('#main-section-msg').addClass('active');
 	}, 4000);
 
+    $('.jquery-background-video').bgVideo({fadeIn: 2000});
+
 	var dragging = false,
         scrolling = false,
         resizing = false;
@@ -124,31 +126,72 @@ $(document).ready(function(){
     }
 
     $("#owl-about").owlCarousel({
-          autoplay: true, //Set AutoPlay to 3 seconds
-          autoplayTimeout:1000,
-          autoplayHoverPause:true,
-          items : 4,
-          nav: true,
-          navText: ["prev","next"],
-          dots: false,
-          loop: true,
-          responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:true
-                },
-                600:{
-                    items:1,
-                    nav:false
-                },
-                1000:{
-                    items:1,
-                    nav:true,
-                    loop:false
-                }
+        autoplay: true, //Set AutoPlay to 3 seconds
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        items : 1,
+        nav: true,
+        navText: ["prev","next"],
+        dots: false,
+        loop: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:false
+            }
+        }
+    });
+
+    $('#nav-1').onePageNav({
+        currentClass: 'current',
+        changeHash: true,
+        scrollSpeed: 750,
+        scrollThreshold: 0.5,
+        filter: '',
+        ease:'swing'
+
+    });
+
+    $('#nav-2').onePageNav({
+        currentClass: 'current',
+        changeHash: true,
+        scrollSpeed: 750,
+        scrollThreshold: 0.5,
+        filter: '',
+        ease:'swing'
+
+    });
+    jQuery(window).bind('scroll', function (){ 
+        var scrollTop = jQuery('#trigger').offset().top;
+
+        if (scrollTop > $('#our-story-section').offset().top) {
+            $('.navbar-top-love').addClass('hide');
+        } else {
+            $('.navbar-top-love').removeClass('hide');
+        }
+
+        $('.animated').each(function(){
+            anim = $(this).attr('data-anim');                
+            if (scrollTop > $(this).offset().top) {                    
+                animatex='up';
+                $(this).removeClass('fadeOut');
+                $(this).addClass(anim);
+            }else{
+                animatex='down';
+                $(this).removeClass(anim);
+                $(this).addClass('fadeOut');
             }
         });
-
+    });
 
 });

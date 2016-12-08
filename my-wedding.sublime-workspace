@@ -1,0 +1,1329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"e",
+				"e74c3c"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"P",
+				"Park"
+			],
+			[
+				"Ech",
+				"EchinosParkScript"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"Hand",
+				"HenryMorganHand"
+			],
+			[
+				"borderl",
+				"border-top-left-radius"
+			],
+			[
+				"se",
+				"setClass"
+			],
+			[
+				"set",
+				"set_class"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"sele",
+				"select_sql"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"ebo",
+				"ebook_update"
+			],
+			[
+				"eb",
+				"ebook_update"
+			],
+			[
+				"up",
+				"update_sql"
+			],
+			[
+				"node",
+				"node_ebook"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"UP",
+				"UPDATE_DATA"
+			],
+			[
+				"film",
+				"filmUpdate"
+			],
+			[
+				"SELEC",
+				"SELECT_DATA"
+			],
+			[
+				"INS",
+				"INSERT_DATA"
+			],
+			[
+				"CRE",
+				"CREATE_TABLE"
+			],
+			[
+				"sqli",
+				"sqlite"
+			],
+			[
+				"_p",
+				"_productCollection"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"vide",
+				"videos"
+			],
+			[
+				"uploa",
+				"uploadedfile"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"list",
+				"listparents"
+			],
+			[
+				"pos",
+				"positions"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"mod",
+				"model"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"load",
+				"loadJSONParams"
+			],
+			[
+				"oe",
+				"overflow"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"Product",
+				"ProductSearch"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"Prod",
+				"ProductSearch"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"requs",
+				"request"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"Produ",
+				"ProductData"
+			],
+			[
+				"Com",
+				"CompanyData"
+			],
+			[
+				"Per",
+				"permissions"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"f1",
+				"f1c40f"
+			],
+			[
+				"f",
+				"f4a62a"
+			],
+			[
+				"service",
+				"serviceParameters"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"data",
+				"dataService"
+			],
+			[
+				"busine",
+				"businessParameter"
+			],
+			[
+				"serv",
+				"services"
+			],
+			[
+				"limi",
+				"limity"
+			],
+			[
+				"maxima",
+				"maximal_value"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"date",
+				"date_start"
+			],
+			[
+				"comp",
+				"component_parameter_id"
+			],
+			[
+				"component_",
+				"component_parameter"
+			],
+			[
+				"busi",
+				"businessParameter"
+			],
+			[
+				"bus",
+				"businessParameters"
+			],
+			[
+				"business",
+				"business_parameter_id"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"parameter",
+				"parameter_id"
+			],
+			[
+				"models",
+				"modelsParameter"
+			],
+			[
+				"Busin",
+				"BusinessParameter"
+			],
+			[
+				"uni",
+				"unit_id"
+			],
+			[
+				"bu",
+				"business_parameter_id"
+			],
+			[
+				"Comp",
+				"Component"
+			],
+			[
+				"para",
+				"parameter_id"
+			],
+			[
+				"ComponentParameter",
+				"ComponentParameterSearch"
+			],
+			[
+				"gra",
+				"graph-trend"
+			],
+			[
+				"Servi",
+				"Service"
+			],
+			[
+				"Busines",
+				"BusinessSearch"
+			],
+			[
+				"maximal",
+				"maximal_value"
+			],
+			[
+				"componen",
+				"component_parameter_id"
+			],
+			[
+				"compon",
+				"ComponentParameters"
+			],
+			[
+				"li",
+				"linfo"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"plugin",
+				"pluginOptions"
+			],
+			[
+				"re",
+				"requestTypes"
+			],
+			[
+				"true",
+				"true_status_id"
+			],
+			[
+				"sta",
+				"status_id"
+			],
+			[
+				"statu",
+				"status_id"
+			],
+			[
+				"tra",
+				"transaction_id"
+			],
+			[
+				"tran",
+				"transaction"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"deleted",
+				"deletedIDs"
+			],
+			[
+				"IssueTy",
+				"IssueTypeStatus"
+			],
+			[
+				"issueType",
+				"IssueTypeStatus"
+			],
+			[
+				"Issu",
+				"IssueTypeStatus"
+			],
+			[
+				"proj",
+				"project"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"find",
+				"findModel"
+			],
+			[
+				"proje",
+				"project_id"
+			],
+			[
+				"que",
+				"queueDetail"
+			],
+			[
+				"project",
+				"project_user_id"
+			],
+			[
+				"detailr",
+				"detailrequest_id"
+			],
+			[
+				"requ",
+				"requesttype_id"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"ProjectUser",
+				"ProjectUserTransaction"
+			],
+			[
+				"modes",
+				"modelsAttachment"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1014,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 9534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 7322,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/love.css",
+			"settings":
+			{
+				"buffer_size": 12094,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/bdev/public/assets/vendor/animate.css/animate.css",
+			"settings":
+			{
+				"buffer_size": 68796,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/nodejs/crud",
+		"/D/nodejs/crud/js",
+		"/D/nodejs/crud/style",
+		"/D/nodejs/crud/templates"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/bdev/public/assets/css/front.css",
+		"/D/xampp/htdocs/bdev/public/assets/js/budi-layout2.js",
+		"/D/xampp/htdocs/bdev/app/views/layouts/budi-layout/frontend.blade.php",
+		"/D/xampp/htdocs/bdev/app/views/layouts/layout.blade.php",
+		"/D/xampp/htdocs/bdev/public/assets/js/demo-1.js",
+		"/D/xampp/htdocs/bdev/public/assets/js/main.js",
+		"/D/nodejs/express/app.js",
+		"/D/nodejs/express/app_sqllite.js",
+		"/D/nodejs/express/app_mysql.js",
+		"/D/nodejs/express/package.json",
+		"/D/nodejs/practice1/app.js",
+		"/D/nodejs/crud/style/love.css",
+		"/D/xampp/htdocs/biensi_test/skin/frontend/3second/default/css/custom.css",
+		"/D/xampp/htdocs/biensi_test/skin/frontend/3second/default/css/styles.css",
+		"/D/xampp/htdocs/biensi_test/skin/frontend/famo/default/css/styles.css",
+		"/C/Users/budi/Downloads/Compressed/image-comparison-slider/image-comparison-slider/index.html",
+		"/D/nodejs/crud/style/material-icons/material-icons.css",
+		"/D/nodejs/crud/connection.js",
+		"/D/nodejs/crud/models/ebook.js",
+		"/D/xampp/htdocs/projectx/app/etc/local.xml",
+		"/D/xampp/htdocs/biensi_test/app/etc/local.xml",
+		"/D/nodejs/crud/routes.js",
+		"/D/nodejs/crud/Gruntfile.js",
+		"/D/nodejs/crud/npm-debug.log",
+		"/D/xampp/htdocs/projectx-new/app/etc/local.xml",
+		"/D/nodejs/crud/templates/home.html",
+		"/D/nodejs/crud/templates/index.html",
+		"/D/xampp/htdocs/biensi_test/app/design/frontend/3second/default/template/catalog/product/homelist.phtml",
+		"/C/Users/budi/Downloads/Compressed/image-comparison-slider/image-comparison-slider/js/main.js",
+		"/C/Users/budi/Downloads/Compressed/image-comparison-slider/image-comparison-slider/css/style.css",
+		"/D/nodejs/crud/js/app.js",
+		"/D/xampp/htdocs/bdev/public/assets/app.js",
+		"/D/xampp/htdocs/bdev/public/assets/js/budi-layout.js",
+		"/D/xampp/htdocs/bdev/app/views/frontend/home.blade.php",
+		"/D/xampp/htdocs/bdev/public/assets/css/style.css",
+		"/D/nodejs/crud/node_modules/fontawesome/generate.js",
+		"/D/nodejs/crud/node_modules/fontawesome/index.js",
+		"/D/nodejs/crud/templates/signin.html",
+		"/D/nodejs/crud/package.json",
+		"/D/xampp/htdocs/biensi_test/app/design/frontend/base/default/template/payment/form/banktransfer.phtml",
+		"/D/xampp/htdocs/biensi_test/var/log/system.log",
+		"/D/xampp/htdocs/biensi_test/app/design/frontend/base/default/template/checkout/onepage/payment/methods.phtml",
+		"/D/xampp/htdocs/biensi_test/app/design/frontend/base/default/template/checkout/onepage/payment/info.phtml",
+		"/D/xampp/htdocs/biensi/skin/frontend/greenlight/default/css/madisonisland.css",
+		"/D/xampp/htdocs/biensi/skin/frontend/greenlight/default/css/styles.css",
+		"/D/xampp/htdocs/biensi/app/code/core/Mage/Catalog/Block/Product/Bestseller.php",
+		"/D/xampp/htdocs/biensi/app/code/core/Mage/Catalog/Block/Product/New.php",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/catalog/product/bestseller.phtml",
+		"/D/xampp/htdocs/biensi/var/log/system.log",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/page/1column-full.phtml",
+		"/D/xampp/htdocs/biensi/app/etc/modules/KS_Newlayout.xml",
+		"/D/xampp/htdocs/biensi/app/code/local/KS/Newlayout/etc/config.xml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/catalog/product/widget/new/content/new_grid.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/page/switch/languages.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/currency/currency.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/page/switch/stores.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/template/page/html/header.phtml",
+		"/C/Users/budi/Downloads/Compressed/product-manager/api/libs/Slim/Slim.php",
+		"/C/Users/budi/Downloads/Compressed/product-manager/api/v1/config.php",
+		"/D/xampp/htdocs/biensi/app/design/frontend/rwd/default/template/catalogsearch/form.mini.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/greenlight/default/layout/local.xml",
+		"/D/xampp/htdocs/biensi/app/code/local/KS/Hotspot/Block/Hotspot.php",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/template/page/switch/stores.phtml",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/etc/config.xml",
+		"/D/xampp/htdocs/shopthelook/app/etc/config.xml",
+		"/D/xampp/htdocs/visman_portrait/index.html",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/layout/page.xml",
+		"/D/xampp/htdocs/magento/app/design/frontend/budihariyana/default/layout/local.xml",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/etc/system.xml",
+		"/D/xampp/htdocs/biensi/app/code/core/Mage/Catalog/Block/Product.php",
+		"/D/xampp/htdocs/biensi/app/code/core/Mage/Catalog/Block/Product/List.php",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/Block/Lookbook.php",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/template/catalog/product/list.phtml",
+		"/D/xampp/htdocs/biensi/skin/frontend/base/default/lookbook/js/hotspots.js",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/template/catalog/product/new.phtml",
+		"/D/xampp/htdocs/biensi/app/code/core/Mage/Catalog/controllers/ProductController.php",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/Block/Adminhtml/Lookbook.php",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/controllers/Adminhtml/Lookbook/LookbookController.php",
+		"/D/xampp/htdocs/biensi/js/lookbook/jquery.annotate.js",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/Block/Adminhtml/Lookbook/Edit/Tab/Form.php",
+		"/D/xampp/htdocs/biensi/app/code/local/Ks/Lookbook/Block/Adminhtml/Lookbook/Edit/Tabs.php",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/template/lookbook/lookbook_detail.phtml",
+		"/D/xampp/htdocs/biensi/app/design/frontend/base/default/layout/lookbook.xml",
+		"/D/xampp/htdocs/kppn/protected/views/site/new_index.php",
+		"/D/xampp/htdocs/visman_landscape/api/app/routes/kinerjas.php",
+		"/D/xampp/htdocs/biensi/app/etc/local.xml",
+		"/D/xampp/htdocs/visman_admin/api/app/routes/kinerjas.php",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/kinerja/kinerja.js",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/kinerja/list.tpl.html",
+		"/D/xampp/htdocs/kppn/protected/config/main.php",
+		"/D/xampp/htdocs/visman_admin/index.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/leftcolmenu.tpl.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/picture/detail.tpl.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/konten/list.tpl.html",
+		"/D/xampp/htdocs/visman_admin/api/app/routes/menus.php",
+		"/D/xampp/htdocs/visman_admin/api/app/routes/pictures.php",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/video/detail.tpl.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/video/video.js",
+		"/D/xampp/htdocs/visman_admin/api/app/routes/videos.php",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/picture/list.tpl.html",
+		"/D/xampp/htdocs/visman_admin/api/app/routes/beritas.php",
+		"/D/xampp/htdocs/visman_landscape/SlideShow/js/supersized.3.2.7.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/header.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/galeri/galeri.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/galeri/image_detail.modal.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/struktur_organisasi/struktur_organisasi.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/struktur_organisasi/struktur_organisasi.modal.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/struktur_organisasi/struktur_organisasi.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/konten/detail.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/bower_components/angular-flexslider/angular-flexslider.js",
+		"/D/xampp/htdocs/visman_landscape/api/app/routes/pictures.php",
+		"/D/xampp/htdocs/visman_landscape/api/app/routes/menus.php",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/galeri/galeri.tpl.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/menu/menu.js",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/picture/picture.js",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/beranda/beranda.js",
+		"/D/xampp/htdocs/visman_landscape/bower_components/angular-flexslider/flexslider.css",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/main.js",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/menu/list.tpl.html",
+		"/D/xampp/htdocs/visman_admin/scripts/app/home/menu/detail.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/index.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/konten/konten.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/berita/berita.js",
+		"/D/xampp/htdocs/visman_landscape/js/angular1.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/mainmenu.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/main.js",
+		"/D/xampp/htdocs/visman_landscape/scripts/app/home/home/home.tpl.html",
+		"/D/xampp/htdocs/visman_landscape/bower_components/angular-flexslider/examples/switch-content-type.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"D:\\xampp\\htdocs\\biensi\\app\\design\\frontend\\rwd\\default\\template",
+			"D:\\xampp\\htdocs\\biensi",
+			"D:\\xampp\\htdocs\\biensi\\app\\code\\local\\Ks\\Lookbook",
+			"D:\\xampp\\htdocs\\biensi",
+			"D:\\xampp\\htdocs\\visman_landscape",
+			"D:\\xampp\\htdocs\\visman\\scripts",
+			"D:\\xampp\\htdocs\\visman",
+			"D:\\xampp\\htdocs\\visman_admin",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend\\themes\\flat\\assets\\css",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend\\controllers",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend\\themes\\flat\\assets",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend\\themes\\flat\\layouts",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\vendor\\funson86\\yii2-blog\\controllers\\backend",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\vendor\\funson86\\yii2-blog\\controllers",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\backend\\themes\\flat\\assets\\js",
+			"D:\\xampp\\htdocs\\berkah-marketplace\\console\\migrations",
+			"D:\\xampp\\htdocs\\cmis\\backend\\views",
+			"D:\\xampp\\htdocs\\cmis\\backend\\views\\webvimark\\module-user-management",
+			"D:\\xampp\\htdocs\\cmis\\backend\\views",
+			"D:\\xampp\\htdocs\\cmis\\console\\migrations",
+			"D:\\xampp\\htdocs\\cmis\\backend",
+			"D:\\xampp\\htdocs\\cmis",
+			"D:\\xampp\\htdocs\\conservir-fbi\\console\\migrations",
+			"D:\\xampp\\htdocs\\conservir-fbi\\backend\\controllers",
+			"D:\\xampp\\htdocs\\SDIA\\console\\migrations",
+			"D:\\xampp\\htdocs\\SDIA\\backend",
+			"D:\\xampp\\htdocs\\SDIA\\backend\\controllers",
+			"D:\\xampp\\htdocs\\SDIA\\console\\migrations",
+			"D:\\xampp\\htdocs\\SDIA\\backend\\controllers",
+			"D:\\xampp\\htdocs\\SDIA\\backend\\components\\views",
+			"D:\\xampp\\htdocs\\SDIA\\console\\migrations",
+			"D:\\xampp\\htdocs\\SDIA\\backend\\views\\project",
+			"D:\\xampp\\htdocs\\SDIA",
+			"D:\\xampp\\htdocs\\SDIA\\console\\migrations",
+			"D:\\xampp\\htdocs\\sdia\\console\\migrations",
+			"D:\\xampp\\htdocs\\sdia",
+			"D:\\xampp\\htdocs\\sdia\\console\\migrations",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\accessdailyreport",
+			"D:\\xampp\\htdocs\\yii-advanced\\common",
+			"D:\\xampp\\htdocs\\yii-advanced",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\models",
+			"D:\\xampp\\htdocs\\yii-advanced",
+			"D:\\xampp\\htdocs\\yii-advanced\\vendor\\webvimark",
+			"D:\\xampp\\htdocs\\yii-advanced",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\controllers",
+			"D:\\xampp\\htdocs\\yii-advanced",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\controllers",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\models",
+			"D:\\xampp\\htdocs\\yii-advanced",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\models",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\news",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\mastermedia",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\themes",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\themes\\budi-layout",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\job",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\content",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\elibrary",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\Incomingfund",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\financialaccount",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\controllers",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views\\rss",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views",
+			"D:\\xampp\\htdocs\\yii-advanced\\vendor",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend",
+			"D:\\xampp\\htdocs\\yii-advanced\\console\\migrations",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\themes\\adminLTE\\layouts",
+			"D:\\xampp\\htdocs\\yii-advanced\\backend\\views",
+			"D:\\xampp\\htdocs\\yii-advanced\\console\\migrations",
+			"D:\\xampp\\htdocs\\yii-advanced\\vendor\\webvimark",
+			"D:\\xampp\\htdocs\\yii-advanced\\vendor\\almasaeed2010\\adminlte",
+			"D:\\xampp\\htdocs\\yii-advanced"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"100",
+			"animatex",
+			"animate",
+			"#trigger",
+			"trigger",
+			"scrollto",
+			".section",
+			"getbootstrap",
+			"Dan",
+			".section",
+			"logo",
+			"owl",
+			"owl-pre",
+			"material",
+			"img",
+			"anim",
+			"nery",
+			"face",
+			"boo",
+			"showSignInPage",
+			"connectiion",
+			"getProductsCount",
+			"helpe",
+			".las",
+			"header-search",
+			"search_mini_form",
+			"skip-link",
+			"rgba",
+			"@med",
+			"@",
+			"header-nav",
+			"page-header",
+			"store-switcher",
+			"#636363",
+			"store-selector-ui",
+			"header-language-background",
+			"alert",
+			"conf",
+			"layout",
+			"hotspo",
+			"limit",
+			"_productCollection",
+			"prepareL",
+			"prepare",
+			"n getPriceHtml",
+			"lookbook information",
+			"only up to",
+			"lookbook manager",
+			"lookbook",
+			"order",
+			"kegiatan",
+			"context-menu",
+			"berita",
+			"konten",
+			"berita",
+			"home",
+			"berandas",
+			"new header",
+			"berita",
+			"slider",
+			"flex",
+			"slider",
+			"is_",
+			"scroll",
+			"scop",
+			"scroll",
+			"right click",
+			"click",
+			"Restangular",
+			"pictures",
+			"img",
+			"image",
+			"img",
+			"picture",
+			"supply chain mana",
+			"is_active",
+			"is_ac",
+			"is_act",
+			"display_at_home",
+			"is_ac",
+			"PictureCreateCtrl",
+			"create",
+			"PictureListCtrl",
+			"is_a",
+			"move",
+			"datas",
+			"return",
+			"listparents",
+			"api",
+			"myData",
+			"scope.da",
+			"descr",
+			"->get('m",
+			"new",
+			"new ",
+			"(.menu/",
+			"function.m",
+			"function.menus",
+			"function.menus)",
+			".menus)",
+			".menus\"",
+			".menus'",
+			"berita",
+			"konten",
+			"berita",
+			".berita",
+			"BeritaCreateCtrl",
+			"berita",
+			"BeritaEditCtrl",
+			"BeritaListCtrl",
+			"/berita",
+			"berita",
+			"/beritas",
+			"Beritas::",
+			"berita",
+			"beritas/files/up",
+			"APP_CONFIG",
+			"appBaseUrl",
+			"upload",
+			"Berita",
+			"berita",
+			"beritas",
+			"BeritaEditCtrl",
+			"BeritaListCtrl",
+			"/berita",
+			"'berita'",
+			"berita",
+			"Kontens"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"animated",
+			"favorite",
+			"rgba(154,204,53,1)",
+			"function(menus)",
+			"(menus)",
+			"\"menus\"",
+			"'menus'",
+			"menu",
+			".menu",
+			"MenuCreateCtrl",
+			"MenuEditCtrl",
+			"MenuListCtrl",
+			"/menu",
+			"menu",
+			"/menus",
+			"Menus::",
+			"konten",
+			"kontens",
+			"KontenEditCtrl",
+			"KontenListCtrl",
+			"/konten",
+			"'konten'",
+			"konten",
+			"Kontens",
+			"program_studi",
+			"defaultValue",
+			"default",
+			"Zoom(10)",
+			"106.803219",
+			"-6.596723",
+			"<?= Url::to(['site/detailproduct', 'id'=>$product->id, 'slug'=>$product->slug]); ?>",
+			"model->",
+			"transaction",
+			"product->company",
+			"use yii\\helpers\\Html;\nuse webvimark\\modules\\UserManagement\\components\\GhostHtml;\n",
+			" GhostHtml::a(",
+			"service_id",
+			"date",
+			"service",
+			"serviceParameter",
+			"_inputtransaction",
+			"business",
+			"businessParameter",
+			"Parameter",
+			"modelParameter",
+			"modelsParameter",
+			"service",
+			"'date'=",
+			"'value'=",
+			"modelStatus",
+			"modelsStatus",
+			"Yii::$app->db->createCommand()",
+			"transaction",
+			"php //Html",
+			"<?php //Html",
+			"<?php",
+			"",
+			"<?php",
+			"<?php //Html",
+			"request",
+			"$request",
+			"fa-calendar",
+			"file",
+			"",
+			"model",
+			"$models",
+			"IDR",
+			"h4",
+			"h3",
+			"h2",
+			"Log::info(\"INVALID\\n\\n\" . $ipnMessage);",
+			"models",
+			"modelsParam",
+			"modelParam",
+			"modelsParam",
+			"file",
+			"modelService",
+			"modelsService",
+			"modelsDate",
+			"modelsService",
+			"col-md",
+			"modelsService",
+			"modelService",
+			"modelTypeService",
+			"modelsTypeService",
+			"#employee-dependent",
+			"employee",
+			"$employee",
+			"surname",
+			"",
+			"EmployeeDependentDocument",
+			"",
+			"modelItem",
+			"modelsItem",
+			"fa-check-circle-o",
+			"modelItem",
+			"modelsItem",
+			"modelItem",
+			"modelsItem",
+			"font-size: 12px;",
+			"",
+			"news",
+			"NewsFile",
+			"news_id",
+			"fa-newspaper-o",
+			"News",
+			"NewsFile",
+			"fa-newspaper-o",
+			"models",
+			"$models",
+			"modelDetail",
+			"modelsDetail",
+			"LeaveDetail",
+			"modelDetail",
+			"modelsDetail",
+			"modelDetail",
+			"modelsDetail",
+			"col-md-6",
+			"employee",
+			" ",
+			"",
+			"interview_employees",
+			"fa-briefcase",
+			"fa-twitch",
+			"author",
+			"file",
+			"cover",
+			"fa-book"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6373,
+								6383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2267.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6697,
+								6697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2274.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style/love.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6985,
+								6985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5235.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/xampp/htdocs/bdev/public/assets/vendor/animate.css/animate.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3626,
+								3626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1789.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "my-wedding.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
