@@ -140,6 +140,12 @@ body {
     padding-bottom: 25px;
 }
 
+.navbar-love .navbar-nav > li > a > i {
+  color: #e74c3c;
+  font-size: 0.7em;
+  margin-right: 3px;
+}
+
 div.logo-container {
 	display: block;
 	text-align: center;
