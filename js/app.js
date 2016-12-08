@@ -202,134 +202,134 @@ $(document).ready(function(){
                     mapTypeIds : [ 'Styled' ]
                 }
             };
-        var styles = [{
-            stylers : [ {
-                hue : "#cccccc"
-            }, {
-                saturation : -100
-            }]
+    var styles = [{
+        stylers : [ {
+            hue : "#cccccc"
         }, {
-            featureType : "road",
-            elementType : "geometry",
-            stylers : [ {
-                lightness : 100
-            }, {
-                visibility : "simplified"
-            }]
+            saturation : -100
+        }]
+    }, {
+        featureType : "road",
+        elementType : "geometry",
+        stylers : [ {
+            lightness : 100
         }, {
-            featureType : "road",
-            elementType : "labels",
-            stylers : [ {
-                visibility : "on"
-            }]
+            visibility : "simplified"
+        }]
+    }, {
+        featureType : "road",
+        elementType : "labels",
+        stylers : [ {
+            visibility : "on"
+        }]
+    }, {
+        featureType: "poi",
+        stylers: [ {
+            visibility: "off"
+        }]
+    }];
+
+    var newMarker = null;
+    var markers = [];
+
+    var loadJSONParams = function(url, params) {
+        if (window.XMLHttpRequest) {
+            var request = new XMLHttpRequest();
+        } else {
+            var request = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+        request.open('GET', url + "?year=" + encodeURIComponent(params), false);
+        request.send();
+        return eval(request.responseText);
+    };
+    // json for properties markers on map
+    if($('#mapView').length > 0){
+        //var props = loadJSONParams($('#mapView').attr('data-url'), 1);
+        var props = [{
+            title : 'Tanah Bapak H.Muhidin',
+            image : '1-1-thmb.png',
+            type : 'For Sale',
+            price : '$1,550,000',
+            address : '39 Remsen St, Brooklyn, NY 11201, USA',
+            bedrooms : '3',
+            bathrooms : '2',
+            area : '3430 Sq Ft',
+            position : {
+                lat : -6.278642,
+                lng : 106.724254
+            },
+            markerIcon : 'marker-red-mini.png'
         }, {
-            featureType: "poi",
-            stylers: [ {
-                visibility: "off"
-            }]
+            title : 'Tanah Bapak H.Mahmud',
+            image : '2-1-thmb.png',
+            type : 'For Rent',
+            price : '$1,750,000',
+            address : '169 Warren St, Brooklyn, NY 11201, USA',
+            bedrooms : '2',
+            bathrooms : '2',
+            area : '4430 Sq Ft',
+            position : {
+                lat : -6.277895,
+                lng : 106.724372,
+            },
+            markerIcon : 'marker-yellow-mini.png'
+        }, {
+            title : 'Tanah Bapak H.Muhidin',
+            image : '3-1-thmb.png',
+            type : 'For Sale',
+            price : '$1,340,000',
+            address : '38-62 Water St, Brooklyn, NY 11201, USA',
+            bedrooms : '2',
+            bathrooms : '3',
+            area : '2640 Sq Ft',
+            position : {
+                lat : -6.276122,
+                lng : 106.723950
+            },
+            markerIcon : 'marker-green-mini.png'
+        }, {
+            title : 'Tanah Ibu Hj.Nurlele',
+            image : '4-1-thmb.png',
+            type : 'For Sale',
+            price : '$1,930,000',
+            address : 'Wunsch Bldg, Brooklyn, NY 11201, USA',
+            bedrooms : '3',
+            bathrooms : '2',
+            area : '2800 Sq Ft',
+            position : {
+                lat : -6.273019,
+                lng : 106.724851
+            },
+            markerIcon : 'marker-green-mini.png'
+        }, {
+            title : 'Tanah Babeh Sabeni',
+            image : '5-1-thmb.png',
+            type : 'For Rent',
+            price : '$2,350,000',
+            address : '95 Butler St, Brooklyn, NY 11231, USA',
+            bedrooms : '2',
+            bathrooms : '2',
+            area : '2750 Sq Ft',
+            position : {
+                lat : -6.274960,
+                lng : 106.723574
+            },
+            markerIcon : 'marker-green-mini.png'
+        }, {
+            title : 'Tanah Engkong Abidin',
+            image : '1-1-thmb.png',
+            type : 'For Sale',
+            price : '$1,550,000',
+            address : '39 Remsen St, Brooklyn, NY 11201, USA',
+            bedrooms : '3',
+            bathrooms : '2',
+            area : '3430 Sq Ft',
+            position : {
+                lat : -6.275109,
+                lng : 106.722791
+            },
+            markerIcon : 'marker-red-mini.png'
         }];
-
-        var newMarker = null;
-        var markers = [];
-
-        var loadJSONParams = function(url, params) {
-            if (window.XMLHttpRequest) {
-                var request = new XMLHttpRequest();
-            } else {
-                var request = new ActiveXObject('Microsoft.XMLHTTP');
-            }
-            request.open('GET', url + "?year=" + encodeURIComponent(params), false);
-            request.send();
-            return eval(request.responseText);
-        };
-        // json for properties markers on map
-        if($('#mapView').length > 0){
-            //var props = loadJSONParams($('#mapView').attr('data-url'), 1);
-            var props = [{
-                title : 'Tanah Bapak H.Muhidin',
-                image : '1-1-thmb.png',
-                type : 'For Sale',
-                price : '$1,550,000',
-                address : '39 Remsen St, Brooklyn, NY 11201, USA',
-                bedrooms : '3',
-                bathrooms : '2',
-                area : '3430 Sq Ft',
-                position : {
-                    lat : -6.278642,
-                    lng : 106.724254
-                },
-                markerIcon : 'marker-red-mini.png'
-            }, {
-                title : 'Tanah Bapak H.Mahmud',
-                image : '2-1-thmb.png',
-                type : 'For Rent',
-                price : '$1,750,000',
-                address : '169 Warren St, Brooklyn, NY 11201, USA',
-                bedrooms : '2',
-                bathrooms : '2',
-                area : '4430 Sq Ft',
-                position : {
-                    lat : -6.277895,
-                    lng : 106.724372,
-                },
-                markerIcon : 'marker-yellow-mini.png'
-            }, {
-                title : 'Tanah Bapak H.Muhidin',
-                image : '3-1-thmb.png',
-                type : 'For Sale',
-                price : '$1,340,000',
-                address : '38-62 Water St, Brooklyn, NY 11201, USA',
-                bedrooms : '2',
-                bathrooms : '3',
-                area : '2640 Sq Ft',
-                position : {
-                    lat : -6.276122,
-                    lng : 106.723950
-                },
-                markerIcon : 'marker-green-mini.png'
-            }, {
-                title : 'Tanah Ibu Hj.Nurlele',
-                image : '4-1-thmb.png',
-                type : 'For Sale',
-                price : '$1,930,000',
-                address : 'Wunsch Bldg, Brooklyn, NY 11201, USA',
-                bedrooms : '3',
-                bathrooms : '2',
-                area : '2800 Sq Ft',
-                position : {
-                    lat : -6.273019,
-                    lng : 106.724851
-                },
-                markerIcon : 'marker-green-mini.png'
-            }, {
-                title : 'Tanah Babeh Sabeni',
-                image : '5-1-thmb.png',
-                type : 'For Rent',
-                price : '$2,350,000',
-                address : '95 Butler St, Brooklyn, NY 11231, USA',
-                bedrooms : '2',
-                bathrooms : '2',
-                area : '2750 Sq Ft',
-                position : {
-                    lat : -6.274960,
-                    lng : 106.723574
-                },
-                markerIcon : 'marker-green-mini.png'
-            }, {
-                title : 'Tanah Engkong Abidin',
-                image : '1-1-thmb.png',
-                type : 'For Sale',
-                price : '$1,550,000',
-                address : '39 Remsen St, Brooklyn, NY 11201, USA',
-                bedrooms : '3',
-                bathrooms : '2',
-                area : '3430 Sq Ft',
-                position : {
-                    lat : -6.275109,
-                    lng : 106.722791
-                },
-                markerIcon : 'marker-red-mini.png'
-            }];
 
         // custom infowindow object
         var infobox = new InfoBox({
@@ -497,5 +497,6 @@ $(document).ready(function(){
                 return false;
             });
         }
+    }
 
 });
