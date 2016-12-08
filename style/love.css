@@ -750,3 +750,27 @@ a.btn.viewInfo {
 .infoW {
     background: #fff;
 }
+
+footer {
+  background: #333;
+  border-top: 5px solid #e74c3c;
+  min-height: 300px;
+}
+
+.footer-logo {
+  text-align:center;
+}
+.footer-logo i {
+  color: #e74c3c;
+  font-size: 60px;
+  position: relative;
+  top: -30px;
+}
+.footer-content {
+  min-height: 200px;
+}
+.footer-bottom {
+  background: #313131;
+  border-top: 1px solid #2a2a2a;
+  min-height: 50px;
+}
