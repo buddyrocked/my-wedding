@@ -617,20 +617,17 @@ div#main-section h1 {
 
 }
 /*** GALLERY ***/
+/* Common style */
 .grid figure {
-  margin: 15px 0;
+  background: #3085a3;
+  cursor: pointer;
+  float: left;
+  margin:15px 0;
+  overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
-.grid figure:after {
-  color: #fff;
-  content:'favorite_border';
-  font-family: 'Material Icons';
-  font-size: 2em;
-  position: relative;
-  right: 20px;
-  top: 20px;
-}
 .grid figure img {
   position: relative;
   display: block;
@@ -662,6 +659,15 @@ div#main-section h1 {
   height: 100%;
 }
 
+.grid figure:after {
+  color: #e74c3c;
+  content:'favorite';
+  font-family: 'Material Icons';
+  font-size: 2.5em;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
@@ -678,7 +684,6 @@ div#main-section h1 {
 }
 
 .grid figure h2 span {
-  color: #e74c3c;
   font-weight: 800;
 }
 
@@ -750,6 +755,91 @@ figure.effect-moses:hover p {
 
 figure.effect-moses:hover img {
   opacity: 0.6;
+}
+
+/*---------------*/
+/***** Lexi *****/
+/*---------------*/
+
+figure.effect-lexi {
+  background: -webkit-linear-gradient(-45deg, #000 0%,#fff 100%);
+  background: linear-gradient(-45deg, #000 0%,#fff 100%);
+}
+
+figure.effect-lexi img {
+  margin: -10px 0 0 -10px;
+  max-width: none;
+  width: -webkit-calc(100% + 10px);
+  width: calc(100% + 10px);
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(10px,10px,0);
+  transform: translate3d(10px,10px,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-lexi figcaption::before,
+figure.effect-lexi p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-lexi figcaption::before {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 900px rgba(255,255,255,0.2);
+  content: '';
+  opacity: 0;
+  -webkit-transform: scale3d(0.5,0.5,1);
+  transform: scale3d(0.5,0.5,1);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+figure.effect-lexi:hover img {
+  opacity: 0.6;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-lexi h2 {
+  text-align: left;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(5px,5px,0);
+  transform: translate3d(5px,5px,0);
+}
+
+figure.effect-lexi p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 1.5em 1.5em 0;
+  width: 140px;
+  text-align: right;
+  opacity: 0;
+  -webkit-transform: translate3d(20px,20px,0);
+  transform: translate3d(20px,20px,0);
+}
+
+figure.effect-lexi:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+}
+
+figure.effect-lexi:hover h2,
+figure.effect-lexi:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
 
