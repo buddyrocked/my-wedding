@@ -273,7 +273,7 @@ $(document).ready(function(){
     if($('#mapView').length > 0){
         //var props = loadJSONParams($('#mapView').attr('data-url'), 1);
         var props = [{
-            title : 'Tanah Bapak H.Muhidin',
+            title : 'Aula Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,550,000',
@@ -287,7 +287,7 @@ $(document).ready(function(){
             },
             markerIcon : 'marker-red-mini.png'
         }, {
-            title : 'Tanah Bapak H.Mahmud',
+            title : 'Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Rent',
             price : '$1,750,000',
@@ -301,7 +301,7 @@ $(document).ready(function(){
             },
             markerIcon : 'marker-yellow-mini.png'
         }, {
-            title : 'Tanah Bapak H.Muhidin',
+            title : 'Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,340,000',
@@ -315,7 +315,7 @@ $(document).ready(function(){
             },
             markerIcon : 'marker-green-mini.png'
         }, {
-            title : 'Tanah Ibu Hj.Nurlele',
+            title : 'Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,930,000',
@@ -329,7 +329,7 @@ $(document).ready(function(){
             },
             markerIcon : 'marker-green-mini.png'
         }, {
-            title : 'Tanah Babeh Sabeni',
+            title : 'Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Rent',
             price : '$2,350,000',
@@ -343,7 +343,7 @@ $(document).ready(function(){
             },
             markerIcon : 'marker-green-mini.png'
         }, {
-            title : 'Tanah Engkong Abidin',
+            title : 'Masjid AT-Taqwa Komplek Pertamina',
             image : '../style/images/1-1-thmb.jpg',
             type : 'For Sale',
             price : '$1,550,000',
@@ -422,7 +422,7 @@ $(document).ready(function(){
                                         '<div class="clearfix"></div>' +
                                         '<div class="infoButtons">' +
                                             '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo btn-danger">Close</a>' +
-                                            '<a href="' + prop.url + '" class="btn btn-sm btn-round btn-green viewInfo btn-primary">View</a>' +
+                                            '<a href="' + prop.url + '" class="btn btn-sm btn-round btn-green viewInfo btn-danger">View</a>' +
                                         '</div>' +
                                      '</div>';
 
