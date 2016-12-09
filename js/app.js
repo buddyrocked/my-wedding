@@ -421,7 +421,7 @@ $(document).ready(function(){
                                         '</ul>' +*/
                                         '<div class="clearfix"></div>' +
                                         '<div class="infoButtons">' +
-                                            '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo btn-primary">Close</a>' +
+                                            '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo btn-danger">Close</a>' +
                                             '<a href="' + prop.url + '" class="btn btn-sm btn-round btn-green viewInfo btn-primary">View</a>' +
                                         '</div>' +
                                      '</div>';
