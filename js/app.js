@@ -526,5 +526,16 @@ $(document).ready(function(){
             });
         }
     }
-
+    var dataGallery = $('#clone-data').html();
+    $('#btn-load-img').click(function(e){
+        $(this).addClass('disabled');
+        $('#btn-load-img span').text('Loading ... ');
+        
+        setTimeout(function() {
+            $('#clone-data').append(dataGallery);
+            $('#btn-load-img span').text('Load More');
+            $('#btn-load-img').removeClass('disabled');
+        }, 5000);
+        e.preventDefault();
+    });
 });

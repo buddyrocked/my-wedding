@@ -172,8 +172,27 @@ div.logo-container {
 
 }
 
+/*** GENERAL ***/
+.text-center {
+  text-align: center;
+}
+
+.btn-container {
+  padding:20px 0;
+}
+
+.btn-love {
+  line-height: 2em;
+  border:none;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.btn-love i {
+  font-size: 0.9em;
+}
+
 /*** MAIN SECTION ***/
-div#main-section {f
+div#main-section {
 	background: url(images/main-section-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 770px;
