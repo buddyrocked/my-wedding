@@ -626,6 +626,7 @@ div#main-section h1 {
   overflow: hidden;
   position: relative;
   text-align: center;
+  width: 100%;
 }
 
 .grid figure img {
