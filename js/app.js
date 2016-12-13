@@ -198,6 +198,8 @@ $(document).ready(function(){
         ease:'swing'
 
     });
+    
+
     jQuery(window).bind('scroll', function (){ 
         var scrollTop = jQuery('#trigger').offset().top;
 
@@ -221,6 +223,21 @@ $(document).ready(function(){
         });
     });
 
+    
+    var dataGallery = $('#clone-data').html();
+    $('#btn-load-img').click(function(e){
+        $(this).addClass('disabled');
+        $('#btn-load-img span').text('Loading ... ');
+        
+        setTimeout(function() {
+            $('#clone-data').append(dataGallery);
+            $('#btn-load-img span').text('Load More');
+            $('#btn-load-img').removeClass('disabled');
+        }, 5000);
+        e.preventDefault();
+    });
+
+    /** GOOGLE MAPS ***/
     var options = {
                 zoom : 3,
                 mapTypeId : 'Styled',
@@ -231,7 +248,7 @@ $(document).ready(function(){
             };
     var styles = [{
         stylers : [ {
-            hue : "#cccccc"
+            hue : "#e74c3c"
         }, {
             saturation : -100
         }]
@@ -362,14 +379,14 @@ $(document).ready(function(){
         var imagePath = '../style';
         var infobox = new InfoBox({
             disableAutoPan: false,
-            maxWidth: 202,
+            maxWidth: 302,
             pixelOffset: new google.maps.Size(-101, -285),
             zIndex: null,
             boxStyle: {
                 background: "url('" + imagePath + "/images/infobox-bg.png') no-repeat",
                 opacity: 1,
-                width: "202px",
-                height: "245px"
+                width: "302px",
+                height: "auto"
             },
             closeBoxMargin: "28px 26px 0px 0px",
             closeBoxURL: "",
@@ -526,16 +543,4 @@ $(document).ready(function(){
             });
         }
     }
-    var dataGallery = $('#clone-data').html();
-    $('#btn-load-img').click(function(e){
-        $(this).addClass('disabled');
-        $('#btn-load-img span').text('Loading ... ');
-        
-        setTimeout(function() {
-            $('#clone-data').append(dataGallery);
-            $('#btn-load-img span').text('Load More');
-            $('#btn-load-img').removeClass('disabled');
-        }, 5000);
-        e.preventDefault();
-    });
 });
