@@ -214,6 +214,9 @@ div.logo-container {
     position: absolute;
     right: 0px;
   }
+  .navbar-nav {
+    margin: 0px 0px;
+  }
   .navbar-love .navbar-nav>li {
     display: inline-block;
     width: 32%;
@@ -222,6 +225,36 @@ div.logo-container {
     padding-top: 10px;
     padding-bottom: 10px;
     
+  }
+  #navbar-mobile {
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    position: fixed;
+    bottom:0px;
+    height: 80px;
+    right: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  #navbar-mobile > ul#nav-mobile {
+    height: 100%;
+    width: 100%;
+  }
+  #navbar-mobile ul li {
+    border: 1px solid #f3f3f3;
+    display: inline-block;
+    margin: 0px !important;
+    padding: 0px;
+    height: 100%; 
+    width: 15.4%;
+  }
+  div#navbar-mobile > ul > li > a {
+    background:#fff;
+    height: 100%; 
+    width: 100%;
+    padding: 0px;
   }
   .cd-timeline-img {
     line-height: 1em !important;
