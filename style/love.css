@@ -228,9 +228,10 @@ div.logo-container {
   }
   #navbar-mobile {
     box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    border-top:1px solid #f0f0f0;
     position: fixed;
     bottom:0px;
-    height: 80px;
+    height: 70px;
     right: 0px;
     width: 100%;
     padding: 0px;
@@ -239,22 +240,31 @@ div.logo-container {
     padding-right: 0px;
   }
   #navbar-mobile > ul#nav-mobile {
+    background:#fff;
     height: 100%;
     width: 100%;
   }
   #navbar-mobile ul li {
-    border: 1px solid #f3f3f3;
+    background: #fff;
     display: inline-block;
+    padding: 10px 0;
     margin: 0px !important;
-    padding: 0px;
     height: 100%; 
     width: 15.4%;
+    text-align: center;
   }
   div#navbar-mobile > ul > li > a {
     background:#fff;
-    height: 100%; 
-    width: 100%;
-    padding: 0px;
+    border: 1px solid #e74c3c;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 3em;
+    height: 56px; 
+    width: 56px;
+    padding: 0px !important;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3em;
   }
   .cd-timeline-img {
     line-height: 1em !important;
@@ -498,30 +508,28 @@ div#main-section h1 {
 	text-align: center;
 }
 .about-item-photo {
-	border: 4px solid #e7e7e7;
-	border-radius: 50%;
+	border: 15px solid #f5f5f5;
+	border-radius: 0%;
 	display: inline-block;
 	margin:0px auto 5px auto;
-	height: 220px;
 	overflow: hidden;
-	width: 220px;
+	width: 70%;
 	z-index: 1;
 }
 .about-item-photo img {
 	width: 100%;
-	border-radius: 50%;
+	border-radius: 0%;
 }
 .about-item-title {
-	color: #e74c3c;
 	font-family: 'Lobster';
-	font-size: 2em;
+	font-size: 2.5em;
+  margin: 20px 0;
 	padding:0px 0;
 	line-height: 1em;
 	text-align: center;
 }
 .about-item-content {
 	color: #999;
-	font-family: 'Lobster';
 	font-size: 1em;
 	padding: 10px 20px;
 	text-align: center;
